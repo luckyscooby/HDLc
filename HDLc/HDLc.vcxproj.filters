@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Helper Files">
+      <UniqueIdentifier>{9ffa77ed-bfcc-4cee-9a63-85fdae054a23}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="source.cpp">
@@ -36,5 +39,13 @@
     <ResourceCompile Include="HDLc.rc">
       <Filter>Resource Files</Filter>
     </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CopyFileToFolders Include="Install.cmd">
+      <Filter>Helper Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="Uninstall.cmd">
+      <Filter>Helper Files</Filter>
+    </CopyFileToFolders>
   </ItemGroup>
 </Project>
