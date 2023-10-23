@@ -3,7 +3,7 @@ Michael Leocádio @ 2015
 
 [![C++](https://img.shields.io/static/v1?label=&message=C%2B%2B&color=%231E40AF&logo=C%2B%2B)](https://)
 
-[![Status - Archived](https://img.shields.io/badge/Release-1.1.0-darkgreen)](https://)
+![GitHub release (with filter)](https://img.shields.io/github/v/release/luckyscooby/HDLc)
 
 [![Status - Archived](https://img.shields.io/badge/Status-Active-green)](https://)
 
