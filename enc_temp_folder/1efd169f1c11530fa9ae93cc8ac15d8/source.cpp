@@ -52,6 +52,9 @@ void _InitializeDiagnosticsQuery(HINSTANCE hInstance)
 {
 	ZeroMemory(&NotifyIconData, sizeof(NotifyIconData));
 
+	//hIconFree = (HICON)LoadImage(NULL, "0.ico", IMAGE_ICON, 16, 16, LR_LOADFROMFILE | LR_MONOCHROME | LR_SHARED);
+	//hIconBusy = (HICON)LoadImage(NULL, "1.ico", IMAGE_ICON, 16, 16, LR_LOADFROMFILE | LR_MONOCHROME | LR_SHARED);
+
 	hIconFree = LoadIcon(hInstance, MAKEINTRESOURCE(IDI_ICON1));
 	hIconBusy = LoadIcon(hInstance, MAKEINTRESOURCE(IDI_ICON2));
 
