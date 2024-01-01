@@ -52,8 +52,8 @@ void _InitializeDiagnosticsQuery(HINSTANCE hInstance)
 {
 	ZeroMemory(&NotifyIconData, sizeof(NotifyIconData));
 
-	hIconFree = LoadIcon(hInstance, MAKEINTRESOURCE(IDI_ICON1));
-	hIconBusy = LoadIcon(hInstance, MAKEINTRESOURCE(IDI_ICON2));
+	hIconFree = LoadIcon(hInstance, MAKEINTRESOURCE(IDI_ICON2));
+	hIconBusy = LoadIcon(hInstance, MAKEINTRESOURCE(IDI_ICON1));
 
 	if (hIconFree == NULL || hIconBusy == NULL) {
 		MessageBox(NULL, "Failed to load icon(s).", "HDLc", MB_ICONERROR | MB_OK);
